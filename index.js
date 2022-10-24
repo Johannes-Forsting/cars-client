@@ -17,6 +17,7 @@ import { initListReservationsAll } from "./pages/showReservations/reservations.j
 
 window.addEventListener("load", async () => {
 
+
   const templateCars = await loadHtml("./pages/cars/cars.html")
   const templateMembers = await loadHtml("./pages/members/members.html")
   const templateAddCar = await loadHtml("./pages/addCar/addCar.html")
